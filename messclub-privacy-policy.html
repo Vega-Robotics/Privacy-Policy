@@ -28,23 +28,15 @@
       border-bottom: 1px solid var(--border);
       padding: 32px 20px;
     }
-    .header-inner, main {
-      max-width: 900px;
-      margin: 0 auto;
-    }
+    .header-inner, main { max-width: 900px; margin: 0 auto; }
     .brand {
       font-size: 30px;
       font-weight: 700;
       color: var(--heading);
       margin: 0 0 8px;
     }
-    .subtitle {
-      margin: 0;
-      color: var(--muted);
-    }
-    main {
-      padding: 32px 20px 60px;
-    }
+    .subtitle { margin: 0; color: var(--muted); }
+    main { padding: 32px 20px 60px; }
     .policy {
       background: var(--card);
       border: 1px solid var(--border);
@@ -52,10 +44,7 @@
       padding: 36px;
       box-shadow: 0 4px 18px rgba(0,0,0,0.04);
     }
-    h1, h2, h3 {
-      color: var(--heading);
-      line-height: 1.3;
-    }
+    h1, h2, h3 { color: var(--heading); line-height: 1.3; }
     h1 { font-size: 32px; margin-top: 0; }
     h2 {
       font-size: 22px;
@@ -67,15 +56,8 @@
     p { margin: 12px 0; }
     ul { padding-left: 24px; }
     li { margin: 7px 0; }
-    a {
-      color: var(--accent);
-      word-break: break-word;
-    }
-    .updated {
-      color: var(--muted);
-      font-size: 14px;
-      margin-bottom: 28px;
-    }
+    a { color: var(--accent); word-break: break-word; }
+    .updated { color: var(--muted); font-size: 14px; margin-bottom: 28px; }
     .notice {
       background: #f3f4f6;
       border-left: 4px solid var(--accent);
@@ -110,13 +92,13 @@
 <main>
   <article class="policy">
     <h1>Privacy Policy for MessClub</h1>
-    <p class="updated"><strong>Last Updated:</strong> September 6, 2026</p>
+    <p class="updated"><strong>Last Updated:</strong> September 10, 2026</p>
 
     <p>
       MessClub ("MessClub", "we", "us", or "our") operates the MessClub mobile
-      application and related services (collectively, the "Service").
-      This Privacy Policy explains how we collect, use, store, protect, and
-      share information when you use MessClub.
+      application and related services (collectively, the "Service"). This
+      Privacy Policy explains how we collect, use, store, protect, and share
+      information when you use MessClub.
     </p>
 
     <p>
@@ -127,40 +109,51 @@
     <h2>1. Information We Collect</h2>
 
     <h3>A. Account Information</h3>
-    <p>When you create an account, we may collect:</p>
+    <p>When you create or maintain an account, we may collect:</p>
     <ul>
       <li>Full name</li>
       <li>Email address</li>
       <li>Phone number</li>
+      <li>Gender, where provided</li>
+      <li>Occupation, where provided</li>
       <li>Password or authentication information</li>
       <li>Account type, such as Customer or Hotel</li>
       <li>Hotel or business information, where applicable</li>
     </ul>
 
-    <h3>B. Meal Subscription Information</h3>
-    <p>When a customer purchases or uses a meal subscription, we may collect:</p>
+    <h3>B. Meal Subscription and Reservation Information</h3>
+    <p>
+      When a customer uses MessClub's meal plans, trial service, reservations,
+      QR-based hotel access, or meal attendance features, we may collect:
+    </p>
     <ul>
       <li>Selected hotel or mess</li>
-      <li>Subscription plan</li>
-      <li>Subscription duration</li>
-      <li>Number of meals included</li>
-      <li>Meals used and remaining</li>
-      <li>Meal booking or usage information</li>
-      <li>Subscription start and expiry information</li>
-      <li>Transaction or payment status</li>
+      <li>Subscription plan and duration</li>
+      <li>Number of meals allocated, reserved, consumed, released, and remaining</li>
+      <li>Meal booking, reservation, ticket, and attendance information</li>
+      <li>Meal date and meal type, such as lunch or dinner</li>
+      <li>Subscription start and meal-balance status</li>
+      <li>Transaction or payment status, when applicable</li>
+      <li>Information needed to prevent duplicate or unauthorized meal usage</li>
     </ul>
 
     <h3>C. Payment Information</h3>
     <p>
-      MessClub allows users to make payments for subscriptions and other
-      services. Payments may be processed through third-party payment
-      providers such as Razorpay.
+      MessClub's payment functionality may be temporarily unavailable while
+      live payment processing is being prepared. During a period when payments
+      are disabled, MessClub does not intentionally process a live subscription
+      payment through the application and does not create a successful payment
+      transaction merely because a user selects a payment option.
     </p>
     <p>
-      We do not intentionally store complete debit card numbers, credit card
-      numbers, CVV codes, or banking credentials on our own servers. Payment
-      information is processed by the applicable payment provider according
-      to its privacy policy and security practices.
+      When live payments are enabled in the future, payments may be processed
+      through a third-party payment provider such as Razorpay. The applicable
+      provider may collect and process payment information according to its
+      own privacy policy and security practices.
+    </p>
+    <p>
+      MessClub does not intentionally store complete debit card numbers, credit
+      card numbers, CVV codes, or banking credentials on its own servers.
     </p>
     <p>
       Razorpay Privacy Policy:
@@ -169,14 +162,19 @@
       </a>
     </p>
 
-    <h3>D. Email and OTP Information</h3>
+    <h3>D. Email, Phone Verification, and CAPTCHA Information</h3>
     <p>
-      We may send verification emails and one-time passwords (OTPs) to users
-      for account verification, authentication, password recovery, and
-      security purposes.
+      Email and phone number may be collected as part of account information.
+      At present, email verification and phone OTP verification may be
+      disabled while these features are being prepared or updated. If these
+      verification features are enabled in the future, related verification
+      information may be processed for authentication and security purposes.
     </p>
     <p>
-      We may use Gmail SMTP / Google services to deliver these emails.
+      MessClub may use CAPTCHA or similar security verification to help confirm
+      that requests are made by legitimate users and to reduce automated abuse.
+      CAPTCHA challenges, verification results, and related technical
+      information may be processed for a limited period for security purposes.
     </p>
     <p>
       Google Privacy Policy:
@@ -196,12 +194,51 @@
       <li>Contact information</li>
       <li>Menu information</li>
       <li>Meal pricing</li>
-      <li>Subscription plans</li>
+      <li>Subscription-related hotel eligibility information</li>
       <li>Business documents or verification information, where required</li>
       <li>Hotel images and other information provided by the hotel</li>
     </ul>
 
-    <h3>F. Information You Provide</h3>
+    <h3>F. Hotel View and Usage Statistics</h3>
+    <p>
+      When a customer opens a hotel's details page, MessClub may record an
+      aggregated hotel view. To reduce repeated or artificial counting, the
+      Service may check whether the same customer or session has already viewed
+      that hotel during the same day.
+    </p>
+    <p>
+      Hotel owners may receive aggregated statistics such as daily, weekly, and
+      monthly hotel views. These statistics are intended to show overall
+      interest in a hotel and do not provide hotel owners with individual
+      customer browsing histories.
+    </p>
+    <p>
+      We do not intentionally provide hotel owners with a customer's personal
+      contact information merely because the customer viewed a hotel.
+    </p>
+
+    <h3>G. Security and Abuse-Prevention Information</h3>
+    <p>
+      To protect MessClub and its users, we may process limited technical and
+      security information, which may include:
+    </p>
+    <ul>
+      <li>IP address</li>
+      <li>Device or browser information</li>
+      <li>User-agent information</li>
+      <li>Request frequency and rate-limiting information</li>
+      <li>Failed login attempts</li>
+      <li>CAPTCHA failures</li>
+      <li>Registration and authentication security events</li>
+      <li>Suspicious or potentially abusive activity</li>
+    </ul>
+    <p>
+      This information may be used to detect and prevent automated abuse,
+      account attacks, fraudulent activity, unauthorized access, and misuse of
+      the Service.
+    </p>
+
+    <h3>H. Information You Provide</h3>
     <p>We may also collect information that you voluntarily provide when you:</p>
     <ul>
       <li>Contact customer support</li>
@@ -216,157 +253,190 @@
     <p>We may use collected information to:</p>
     <ul>
       <li>Create and manage user accounts</li>
-      <li>Verify user identity and email addresses</li>
-      <li>Send OTP and authentication emails</li>
-      <li>Process subscriptions and payments</li>
-      <li>Manage meal subscriptions</li>
-      <li>Track available and used meals</li>
-      <li>Connect customers with hotels and messes</li>
+      <li>Authenticate users and maintain account security</li>
+      <li>Provide CAPTCHA and other anti-abuse protections</li>
+      <li>Apply rate limits and login-attempt protections</li>
+      <li>Detect suspicious activity and prevent fraud or misuse</li>
+      <li>Manage meal subscriptions and trial services</li>
+      <li>Track allocated, reserved, consumed, released, and remaining meals</li>
+      <li>Manage hotel reservations, QR-based access, tickets, and attendance</li>
+      <li>Connect customers with approved hotels and messes</li>
+      <li>Provide hotels with aggregated hotel-view statistics</li>
       <li>Manage hotel accounts and listings</li>
+      <li>Process payments when live payment functionality is enabled</li>
       <li>Provide customer support</li>
-      <li>Prevent fraud, misuse, and unauthorized access</li>
       <li>Improve the functionality and performance of MessClub</li>
-      <li>Maintain security</li>
+      <li>Maintain security and service reliability</li>
       <li>Communicate important service-related information</li>
       <li>Comply with applicable legal obligations</li>
     </ul>
 
     <h2>3. Information Sharing</h2>
     <p>
-      We may share information with trusted third-party service providers
-      when necessary to provide MessClub services.
+      We may share information with trusted third-party service providers when
+      necessary to provide, secure, maintain, or improve MessClub.
     </p>
 
     <h3>Payment Providers</h3>
     <p>
-      Payment information may be processed by third-party payment providers
-      such as Razorpay.
+      When live payments are enabled, payment information may be processed by
+      third-party payment providers such as Razorpay. When payment processing
+      is disabled, the application does not intentionally send a payment to a
+      live payment gateway merely because a user selects the payment option.
     </p>
 
-    <h3>Email Service Providers</h3>
+    <h3>Email and Infrastructure Providers</h3>
     <p>
-      We may use Gmail/Google services to send OTP and account-related emails.
+      We may use email, cloud hosting, database, authentication, security, and
+      infrastructure providers to operate the Service. These providers may
+      process information as necessary to provide their services.
     </p>
 
-    <h3>Hosting and Infrastructure Providers</h3>
+    <h3>Hotels</h3>
     <p>
-      Our application may use third-party hosting, database, cloud, or
-      infrastructure services to operate the Service.
+      MessClub may provide hotels with information necessary to operate meal
+      reservations and attendance. Hotel owners may also receive aggregated
+      hotel-view statistics. Individual customer browsing information is not
+      intentionally provided to hotels merely because a customer views a hotel.
     </p>
-
 
     <p>
       We do not sell users' personal information.
     </p>
 
     <p>
-      We may also disclose information when required by law, legal process,
+      We may disclose information when required by law, legal process,
       government request, or when necessary to protect the rights, safety,
       security, or property of MessClub, our users, or others.
     </p>
 
     <h2>4. Data Security</h2>
     <p>
-      We take reasonable technical and organizational measures to protect
-      user information from unauthorized access, alteration, disclosure, or
+      We take reasonable technical and organizational measures to protect user
+      information from unauthorized access, alteration, disclosure, or
       destruction.
     </p>
     <p>Depending on the information and service involved, security measures may include:</p>
     <ul>
       <li>Password hashing</li>
       <li>Authentication and authorization controls</li>
-      <li>Secure API communication</li>
       <li>HTTPS/TLS encryption</li>
+      <li>Rate limiting</li>
+      <li>Login-attempt protection</li>
+      <li>CAPTCHA and automated-abuse protection</li>
       <li>Access controls</li>
       <li>Secure database practices</li>
       <li>Authentication tokens</li>
-      <li>Protection against unauthorized access</li>
+      <li>Security and audit logging</li>
+      <li>Protection against unauthorized access and suspicious activity</li>
     </ul>
     <p>
       However, no method of electronic transmission or storage is completely
       secure, and we cannot guarantee absolute security.
     </p>
 
-    <h2>5. Data Retention</h2>
-    <p>We retain personal information only for as long as reasonably necessary to:</p>
+    <h2>5. Data Retention and Backups</h2>
+    <p>We retain information only for as long as reasonably necessary to:</p>
     <ul>
       <li>Provide our services</li>
       <li>Maintain user accounts</li>
       <li>Process and manage subscriptions</li>
+      <li>Maintain meal, reservation, attendance, and hotel records</li>
       <li>Meet legal, accounting, or regulatory requirements</li>
       <li>Resolve disputes</li>
       <li>Prevent fraud and abuse</li>
       <li>Enforce our agreements</li>
     </ul>
     <p>
-      When information is no longer required, we may delete or anonymize it
-      in accordance with our data retention practices and applicable law.
+      MessClub may maintain secure database backups or exports for operational
+      recovery, business continuity, security, accounting, and disaster
+      recovery purposes. Backup copies may remain for a limited period after
+      information is removed from active systems and may be subject to
+      appropriate access controls.
+    </p>
+    <p>
+      When information is no longer required, we may delete or anonymize it in
+      accordance with our data retention practices and applicable law.
     </p>
 
     <h2>6. Account Deletion</h2>
     <p>
       Users may request deletion of their MessClub account and associated
-      personal information.
+      personal information through the account-deletion option available in
+      the application, where provided, or by contacting us.
     </p>
-
-
+    <div class="notice">
+      <strong>Important:</strong> Account deletion is intended to be permanent.
+      After confirmed deletion, the account may not be recoverable.
+    </div>
     <p>
-      Users can request account deletion by contacting us at
-      <strong>messclub.contact@gmail.com</strong>.
+      Before completing an account deletion request, MessClub may require
+      authentication or another security confirmation to help prevent
+      unauthorized deletion.
     </p>
-
     <p>
-      When an account deletion request is received, we will delete or
-      anonymize applicable personal information, subject to information that
-      we are legally required or permitted to retain.
+      When an account is deleted, we will delete or anonymize applicable
+      personal information, subject to information that we are legally required
+      or permitted to retain, including certain financial, accounting,
+      security, audit, or transaction records.
+    </p>
+    <p>
+      Contact for account deletion or privacy requests:
+      <strong>messclubteam@gmail.com</strong>
     </p>
 
     <h2>7. Children's Privacy</h2>
     <p>
-      MessClub does not knowingly collect age-related information or intentionally 
-      target children. The app may collect basic account information such as name, 
-      email address, phone number, and gender for account and service-related purposes. 
-      We do not knowingly collect information specifically from children under the age of 13.
+      MessClub does not knowingly collect age-related information or
+      intentionally target children. The app may collect basic account
+      information such as name, email address, phone number, gender, and
+      occupation for account and service-related purposes. We do not knowingly
+      collect information specifically from children under the age of 13.
     </p>
     <p>
-      If you believe that a child under the age of 13 has provided personal information 
-      through MessClub without appropriate consent, please contact us at 
-      <strong>messclub.contact@gmail.com</strong>. Upon receiving a valid request, we will take reasonable steps 
-      to review and delete the information where required by applicable law.
+      If you believe that a child under the age of 13 has provided personal
+      information through MessClub without appropriate consent, please contact
+      us at <strong>messclubteam@gmail.com</strong>. Upon receiving a valid
+      request, we will take reasonable steps to review and delete the
+      information where required by applicable law.
     </p>
 
     <h2>8. Third-Party Services</h2>
     <p>
-      MessClub may use third-party services to operate and improve the
+      MessClub may use third-party services to operate, secure, and improve the
       application. These services may include:
     </p>
     <ul>
-      <li>Payment processing services</li>
+      <li>Payment processing services, when enabled</li>
       <li>Email delivery services</li>
       <li>Cloud hosting services</li>
       <li>Database services</li>
       <li>Authentication or security services</li>
+      <li>Infrastructure and abuse-prevention services</li>
     </ul>
-
-
     <p>
       Third-party providers may collect or process information according to
       their own privacy policies.
     </p>
 
-
-
-    <h2>9. Analytics and Advertising</h2>
+    <h2>9. Analytics and Hotel View Statistics</h2>
+    <p>
+      MessClub may maintain first-party operational statistics, including
+      aggregated hotel-detail-page views, to help hotels understand overall
+      customer interest and to improve the Service.
+    </p>
+    <p>
+      Hotel view statistics are intended to be aggregated. We do not
+      intentionally provide hotel owners with individual customer browsing
+      histories or personal contact information solely because a customer
+      viewed a hotel.
+    </p>
     <p>
       Currently, MessClub does not intentionally use third-party analytics or
       remarketing services unless specifically stated in this Privacy Policy.
-    </p>
-
-
-    <p>
-      If analytics or advertising services are added in the future, this
-      Privacy Policy may be updated to explain the information collected and
-      how those services are used.
+      If such services are added in the future, this Privacy Policy may be
+      updated to explain the information collected and how those services are
+      used.
     </p>
 
     <h2>10. Your Privacy Rights</h2>
@@ -404,9 +474,8 @@
     </p>
     <p>
       <strong>MessClub</strong><br>
-      <strong>Developer/Company:</strong>MessClub<br>
-      <strong>Email:</strong>messclub.contact@gmail.com<br>
-      <strong>No:</strong>+91 95299 48058<br>
+      <strong>Developer/Company:</strong> MessClub<br>
+      <strong>Email:</strong> messclubteam@gmail.com<br>
       
     </p>
 
